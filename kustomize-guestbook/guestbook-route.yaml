@@ -2,7 +2,6 @@ kind: Route
 apiVersion: route.openshift.io/v1
 metadata:
   name: guestbook-app
-  namespace: hello-world
 spec:
   host: guestbook-app.apps.cas-test.6qnmp.gcp.redhatworkshops.io
   path: /
